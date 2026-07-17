@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "drift-sdk"
-version = "0.1.1"
+version = "0.1.2"
 description = "Tiny Python SDK for the Drift dataset API"
 readme = "README.md"
 requires-python = ">=3.9"
