@@ -19,13 +19,15 @@ Drift exposes datasets, routes, and segments as simple Python objects while
 hiding the storage details underneath. It is best understood as a clean access
 layer over driving data and artifacts, rather than a fully prepared ML dataset.
 
-If you are new to the project, start with the included example notebook:
+## Quickstart
 
-- `examples/drift_train_driving.ipynb`
+For a one-click start, open the example notebook in Google Colab:
 
-That notebook walks through the end-to-end flow: loading the dataset,
-inspecting routes and segments, downloading data, training a simple driving
-policy, and exporting a model.
+- [drift_train_driving.ipynb](https://github.com/JordyKieto/drift-sdk/blob/main/examples/drift_train_driving.ipynb)
+
+It is a simple end-to-end quickstart for loading the dataset, downloading
+segments, training a driving policy, and exporting a model. The notebook is set
+up to work well on an NVIDIA A100.
 
 Drift aims to do for end-to-end driving data what Hugging Face Datasets did for
 NLP datasets: provide a simple, reproducible interface that makes
@@ -42,7 +44,9 @@ The intended SDK flow is:
 ## Installation
 
 ```bash
-pip install drift
+pip install drift-sdk
+
+import drift
 ```
 
 ## API endpoint
