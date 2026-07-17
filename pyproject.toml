@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "drift-sdk"
-version = "0.1.2"
+version = "0.1.3"
 description = "Tiny Python SDK for the Drift dataset API"
 readme = "README.md"
 requires-python = ">=3.9"
@@ -33,9 +33,9 @@ torch = ["torch>=2.0"]
 tensorflow = ["tensorflow>=2.15"]
 
 [project.urls]
-Homepage = "https://github.com/drift-sdk/drift"
-Repository = "https://github.com/drift-sdk/drift"
-Issues = "https://github.com/drift-sdk/drift/issues"
+Homepage = "https://github.com/JordyKieto/drift-sdk"
+Repository = "https://github.com/JordyKieto/drift-sdk"
+Issues = "https://github.com/JordyKieto/drift-sdk/issues"
 
 [tool.setuptools]
 packages = ["drift"]
